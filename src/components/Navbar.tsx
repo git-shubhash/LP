@@ -46,7 +46,7 @@ export default function NavigationBar() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary" href="#login">Login</NavbarButton>
+            <NavbarButton variant="secondary" href="/signin">Login</NavbarButton>
             <NavbarButton variant="primary" href="#demo">Book a Demo</NavbarButton>
           </div>
         </NavBody>
@@ -80,7 +80,7 @@ export default function NavigationBar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="secondary"
                 className="w-full"
-                href="#login"
+                href="/signin"
               >
                 Login
               </NavbarButton>
